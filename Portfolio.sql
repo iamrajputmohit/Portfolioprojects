@@ -10,7 +10,7 @@ order by 3,4
 
 
 -- looking at total case vs total deaths 
--- shows the likelyhood of dieing if you are convicted, in a county 
+-- shows the likelyhood of dieing if you are convicted, in a afghanistan 
 SELECT location,date,total_cases, total_deaths, (total_deaths / total_cases) * 100 AS 'death%'
 FROM covid_deaths_synthetic;
 order by 1,2
